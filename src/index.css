@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+
+}
+
+
